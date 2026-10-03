@@ -11,8 +11,8 @@ from agent import build_agent, list_threads
 NEW_CONVERSATION = "+ New conversation"
 
 
-st.set_page_config(page_title="LangChain Chatbot", page_icon="💬")
-st.title("💬 LangChain chatbot")
+st.set_page_config(page_title="Recall bot Chatbot", page_icon="💬")
+st.title("💬 Recall bot chatbot")
 
 
 @st.cache_resource

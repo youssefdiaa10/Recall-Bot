@@ -13,7 +13,7 @@ from langchain_groq import ChatGroq
 from langchain.agents import create_agent
 from langgraph.checkpoint.sqlite import SqliteSaver
 
-from src.tools import calculator
+from tools import calculator
 
 load_dotenv()  #? Load API credentials from the project .env file.
 

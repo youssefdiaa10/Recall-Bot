@@ -8,12 +8,8 @@ enough tools to make that file hard to scan.
 
 import ast
 import operator
-import os
-import re
 
-import wikipedia as wikipedia_api
 from langchain.tools import tool
-from langchain_tavily import TavilySearch
 
 
 # ---------------------------------------------------------------------------

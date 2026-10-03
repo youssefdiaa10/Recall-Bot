@@ -2,7 +2,7 @@ import asyncio
 
 from langchain.messages import AIMessageChunk
 
-from src.agent import build_agent
+from agent import build_agent
 
 
 async def stream_reply(agent, user_input: str, config: dict) -> None:

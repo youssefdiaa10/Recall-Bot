@@ -6,7 +6,7 @@ from langchain.messages import AIMessageChunk
 
 from langchain_core.runnables import RunnableConfig
 
-from src.agent import build_agent, list_threads
+from agent import build_agent, list_threads
 
 NEW_CONVERSATION = "+ New conversation"
 

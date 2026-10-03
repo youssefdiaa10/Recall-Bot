@@ -1,0 +1,36 @@
+﻿#! Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+#! Extra files
+_*
+generated_files/
+
+#! Virtual environments
+.venv/
+venv/
+env/
+
+#! Local secrets
+.env
+.env.*
+!.env.example
+
+#! Generated conversation history (SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+#! Streamlit
+.streamlit/secrets.toml
+
+#! Model and runtime artifacts
+*.pt
+.uv-cache/
+runs/
+datasets/
+
+#! Local editor settings
+.vscode/
+.idea/

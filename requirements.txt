@@ -1,15 +1,8 @@
-ddgs
-
 langchain
 langgraph
 streamlit
-wikipedia
 
-python-docx
 python-dotenv
 langchain-groq
 
-langchain_tavily
-langchain-community
-langchain_mcp_adapters
 langgraph-checkpoint-sqlite
